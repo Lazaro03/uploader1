@@ -29,27 +29,27 @@ class JsonDatabase(object):
     def create_user(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': 'https://eva.uo.edu.cu/',
-                     'moodle_repo_id': 4,
-                     'moodle_user': 'ernesto.ricardo',
-                     'moodle_password': 'Ero.434545',
+                     'moodle_host': 'https://aulacened.uci.cu/',
+                     'moodle_repo_id': 5,
+                     'moodle_user': 'estevez',
+                     'moodle_password': 'Luisaes02.',
                      'isadmin': 0,
-                     'zips': 90,
-                     'uploadtype':'evidence',
+                     'zips': 249,
+                     'uploadtype':'draft',
                      'proxy':'socks5://181.225.255.17:7080',
                      'tokenize':0}
 
     def create_admin(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': '---',
-                     'moodle_repo_id': 4,
-                     'moodle_user': '---',
-                     'moodle_password': '---',
+                     'moodle_host': 'https://aulacened.uci.cu/',
+                     'moodle_repo_id': 5,
+                     'moodle_user': 'estevez',
+                     'moodle_password': 'Luisaes02.',
                      'isadmin': 1,
-                     'zips': 100,
-                     'uploadtype':'evidence',
-                     'proxy':'',
+                     'zips': 249,
+                     'uploadtype':'draft',
+                     'proxy':'socks5://181.225.255.17:7080',
                      'tokenize':0}
 
     def remove(self,name):
