@@ -4,7 +4,7 @@
   "env": {
     "administrador": {
       "description": "El Usuario DE Telegram Q Va A ADministrar El Bot",
-      "value": "Michel1203"
+      "value": "@Michel1203"
     },
     "bot_token": {
       "description": "El token del bot",
